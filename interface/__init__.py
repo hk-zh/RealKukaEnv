@@ -1,0 +1,1 @@
+from .JPype import KukaInterface

@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Class-Path: 
+ RobotControl/KUKAJavaLib/com.kuka.appframework.api_1.1.0.6-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.appframework.api_1.1.0.6.jar 
+ RobotControl/KUKAJavaLib/com.kuka.basictoolbox_1.3.0-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.basictoolbox_1.3.0.jar 
+ RobotControl/KUKAJavaLib/com.kuka.collisiondetection_1.3.0-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.collisiondetection_1.3.0.jar 
+ RobotControl/KUKAJavaLib/com.kuka.common.datatypes_1.15.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.common.datatypes_1.15.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.common.utilities_1.5.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.common.utilities_1.5.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.common.JniExtractor_1.15.0.Con1-16-0_4-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.common.JniExtractor_1.15.0.Con1-16-0_4.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.directServo_1.15.0.Con1-16-0_4-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.directServo_1.15.0.Con1-16-0_4.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.fastRobotInterface_1.15.1.Con1-16-0_4-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.fastRobotInterface_1.15.1.Con1-16-0_4.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServoLIN_1.15.0.Con1-16-0_4-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServoLIN_1.15.0.Con1-16-0_4.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServo_1.16.0.Con1-16-0_4-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServo_1.16.0.Con1-16-0_4.jar 
+ RobotControl/KUKAJavaLib/com.kuka.jogging.provider.api_1.0.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.mastering.provider.api_1.5.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.resource.api_1.0.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.resource.api_1.0.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.roboticsAPI.handGuiding_1.16.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.roboticsAPI.handGuiding_1.16.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.roboticsAPI_1.15.2.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.roboticsAPI_1.15.2.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.sunrise.common_1.0.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.sunrise.common_1.0.0.9.jar 
+ RobotControl/KUKAJavaLib/com.kuka.task.api_1.0.0.9-javadoc.jar 
+ RobotControl/KUKAJavaLib/com.kuka.task.api_1.0.0.9.jar 
+ RobotControl/KUKAJavaLib/javax.inject_1.0.0.v20091030.jar 
+ RobotControl/KUKAJavaLib/slf4j-nop-1.7.3.jar 
+ RobotControl/KUKAJavaLib/slf4j.api_1.7.3.jar 
+ RobotControl/missing_jars/activation-1.1.jar 
+ RobotControl/missing_jars/istack-commons-runtime-3.0.5.jar 
+ RobotControl/missing_jars/jar_files.zip 
+ RobotControl/missing_jars/jaxb-api-2.3.0.jar 
+ RobotControl/missing_jars/jaxb-core-2.3.0.jar 
+ RobotControl/missing_jars/jaxb-impl-2.3.0.jar 
+ RobotControl/missing_jars/txw2-2.3.0.jar 
+
+

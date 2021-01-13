@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.kuka.roboticsAPI.applicationModel.RoboticsAPIApplication"/>
+    <fullyQualifiedTypeName name="Controller.CheckJointVelocityControl"/>
+    <fullyQualifiedTypeName name="com.kuka.task.ITaskLogger"/>
+    <fullyQualifiedTypeName name="com.kuka.roboticsAPI.geometricModel.World"/>
+    <fullyQualifiedTypeName name="com.kuka.roboticsAPI.deviceModel.JointPosition"/>
+</qualifiedTypeNameHistroy>

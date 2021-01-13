@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/javax.inject_1.0.0.v20091030.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/slf4j-nop-1.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/slf4j.api_1.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="missing_jars/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="missing_jars/jaxb-api-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="missing_jars/jaxb-impl-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.common.datatypes_1.15.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.common.utilities_1.5.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.jogging.provider.api_1.0.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.mastering.provider.api_1.5.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.resource.api_1.0.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.roboticsAPI_1.15.2.9.jar" sourcepath="KUKAJavaLib/com.kuka.roboticsAPI_1.15.2.9-javadoc.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.roboticsAPI_1.15.2.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.roboticsAPI.handGuiding_1.16.0.9.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.roboticsAPI.handGuiding_1.16.0.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.sunrise.common_1.0.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.task.api_1.0.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.appframework.api_1.1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.basictoolbox_1.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.basictoolbox_1.3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.collisiondetection_1.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.collisiondetection_1.3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.connectivity.common.JniExtractor_1.15.0.Con1-16-0_4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.connectivity.common.JniExtractor_1.15.0.Con1-16-0_4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.connectivity.directServo_1.15.0.Con1-16-0_4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.connectivity.directServo_1.15.0.Con1-16-0_4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.connectivity.fastRobotInterface_1.15.1.Con1-16-0_4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.connectivity.fastRobotInterface_1.15.1.Con1-16-0_4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.connectivity.smartServo_1.16.0.Con1-16-0_4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServo_1.16.0.Con1-16-0_4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="KUKAJavaLib/com.kuka.connectivity.smartServoLIN_1.15.0.Con1-16-0_4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/RobotControl/KUKAJavaLib/com.kuka.connectivity.smartServoLIN_1.15.0.Con1-16-0_4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
