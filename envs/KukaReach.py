@@ -68,7 +68,6 @@ class KukaReach(KukaEnv):
 
     def _env_setup(self):
         # self.env.stepJoints(np.array(joints))
-        currentFrame = self.env.getCurrentFrame()
         offset = self.env.getCurrentFrame() - self.sim_env_coord
         self.env.setOffset(offset)
         self.initial_needle_xpos = self.env.getCurrentFrame().copy()
@@ -86,3 +85,4 @@ class KukaReach(KukaEnv):
     def close(self):
         self.env.dispose()
         self.env.shutdown()
+

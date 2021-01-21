@@ -40,7 +40,7 @@ class KukaEnv():
     def _get_obs(self):
         raise NotImplementedError()
 
-    def _env_setup(self, initial_qpos):
+    def _env_setup(self):
         raise NotImplementedError()
 
     def _is_success(self, achieved_goal, desired_goal):

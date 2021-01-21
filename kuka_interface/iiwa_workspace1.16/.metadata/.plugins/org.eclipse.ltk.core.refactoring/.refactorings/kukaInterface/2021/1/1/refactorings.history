@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;Controller.examples_com_kuka_connectivity_smartServoLIN_examples_SmartServoLINInteractionControl.java&apos; to &apos;SmartServoLINInteractionControl.java&apos;&#x0A;- Original project: &apos;kukaInterface&apos;&#x0A;- Original element: &apos;Controller.examples_com_kuka_connectivity_smartServoLIN_examples_SmartServoLINInteractionControl.java&apos;&#x0A;- Renamed element: &apos;Controller.SmartServoLINInteractionControl.java&apos;" description="Rename compilation unit &apos;examples_com_kuka_connectivity_smartServoLIN_examples_SmartServoLINInteractionControl.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Controller{examples_com_kuka_connectivity_smartServoLIN_examples_SmartServoLINInteractionControl.java" name="SmartServoLINInteractionControl.java" references="false" stamp="1609858189661" version="1.0"/>
-</session>

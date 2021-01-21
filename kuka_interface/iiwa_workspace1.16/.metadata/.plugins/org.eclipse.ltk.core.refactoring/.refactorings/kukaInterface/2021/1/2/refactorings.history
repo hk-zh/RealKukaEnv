@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Controller.SmartServoMotions&apos; to &apos;SmartServoLINMotions&apos;&#x0A;- Original project: &apos;kukaInterface&apos;&#x0A;- Original element: &apos;Controller.SmartServoMotions&apos;&#x0A;- Renamed element: &apos;Controller.SmartServoLINMotions&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SmartServoMotions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Controller{SmartServoMotions.java[SmartServoMotions" matchStrategy="1" name="SmartServoLINMotions" qualified="false" references="true" similarDeclarations="false" stamp="1610376130095" textual="false" version="1.0"/>
-</session>
