@@ -1,7 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e66a2ad8-4198-4065-8c54-11ccaa3ebd3d" name="Default Changelist" comment="" />
+    <list default="true" id="e66a2ad8-4198-4065-8c54-11ccaa3ebd3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envs/KukaPush.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuka_interface/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/progress.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-best.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-best.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-best.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-latest.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-latest.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policy/KukaReach2/saved_policy-latest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.robotapplock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/envs/KukaReach.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/KukaReach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/1/102156ddc254001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/11/a086e52a0f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/11/e09069b50b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/1a/e0d91a682754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/1c/a0e66e22ed53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/21/605be72a0f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/24/809397251154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/25/0060c6ba2854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/2b/00b1f2a62854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/2b/704a7c8abd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/2e/f05df399ed53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/30/40c8647df253001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/35/703a4ed62b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/36/a0a7fd16f453001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/38/8011b7050754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/3b/609b055cbd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/3b/e04eab662854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/3f/7019b5032754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/45/707bd72f2b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/51/70c3c412f553001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/5b/80fb0d25ed53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/5d/30403fff0f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/5e/0002c2820e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/6/9043c35c1154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/6/9061f1c9f353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/6/90d4ac170e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/60/0098f66b2854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/60/f0e1a4e42b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/61/206d9405ed53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/64/e0707ea71554001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/65/802ebc331154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/65/f0ab72d92b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/66/00cb47172b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/69/60aa5d591154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/6e/80e5e9d0f353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/7/2093a4faf353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/70/a0c8e7960e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/71/007a79760e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/71/d09cba76bd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/72/40027bf92a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/77/90e29f740f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/7c/70d2f11b2854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/7f/70807989bd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/7f/80904d2d1054001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/8/c0c84af40a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/81/50fcef9c1254001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/83/20f13b402754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/85/00e835ff2854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/85/801360f02a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/86/904cf1012b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/89/80da07702854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/8d/60ea1f301054001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/9/7080c788bb52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/91/e026a1532754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/94/10dab61a2b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/95/a091c21b1354001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/96/5056e9702754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/96/90459cac0e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/9a/00a543f62a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/9e/1039bb76bd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a/e0a6bf49f253001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a1/30c076082754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a1/80159921ec53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a2/c010fd7fbd52001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a3/00a406da2a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a7/000370121154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/a9/40202ea02654001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/ad/a09710baf353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/af/80029d24f353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/b/006e03781154001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/b2/20356ca92b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/b2/a03d45dc0f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/b4/206cf92c0754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/c/10911b632b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/c/401bb6930f54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/c0/90e038ccf353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d1/506725f2c352001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d2/1008dea8ed53001b18af94a761a639b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d5/e0ba4b732854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d8/f066a79e2b54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d9/00c975f40d54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d9/604c65762754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/d9/f008f7c82854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/dd/0013601d2954001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/e3/309a208cf253001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/e3/6080b05d2a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/e4/300c67b92a54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/e5/106854200e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/e7/6023585b2854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/ec/4000b4660e54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/ed/90d5468ef253001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/ee/2097eeb6f353001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f/00311978f253001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f/605c12372754001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f2/60151ba9cf54001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f3/103204f52854001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f7/f0bf603e1054001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/f8/807ef490f453001b1358ad2012caddbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.history/fe/b08f8cfd2654001b17c09b1efb115615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/.indexes/e4/65/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/RobotControl/.indexes/e4/23/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/RobotControl/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/RobotControl/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/.indexes/e4/44/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/.indexes/e4/44/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.projects/kukaInterface/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.root/43.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/Exercises/.robotapplock" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/Exercises/.robotapplock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kuka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kuka.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/.robotapplock" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/.robotapplock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/bin/Controller/SmartServoLINMotions.class" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/bin/Controller/SmartServoLINMotions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/src/Controller/SmartServoLINMotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/kuka_interface/iiwa_workspace1.16/kukaInterface/src/Controller/SmartServoLINMotions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/play.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/progress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/progress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-0.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-best.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.index" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/policy/KukaReach/saved_policy-latest.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +171,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lHM0RszSXtqGgWCtrlji2ADnTe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,15 +181,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/policy/KukaReach" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/policy/KukaReach2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/policy/KukaReach2" />
       <recent name="$PROJECT_DIR$/policy/KukaReach" />
     </key>
   </component>
@@ -93,7 +251,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/play.py" />
-      <option name="PARAMETERS" value="--env KukaReach-v1 --play_path policy/KukaReach --play_epoch best" />
+      <option name="PARAMETERS" value="--env KukaReach-v1 --play_path policy/KukaReach2 --play_epoch latest" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -135,129 +293,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="331" y="238" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610579346922">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state x="265" y="214" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1536.891@0.23.1536.891" timestamp="1610460238481" />
-    <state x="331" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1005@0.23.1920.1005" timestamp="1610579346922" />
-    <state x="835" y="344" key="FileChooserDialogImpl" timestamp="1607429006310">
-      <screen x="0" y="23" width="1920" height="1009" />
-    </state>
-    <state x="835" y="344" key="FileChooserDialogImpl/0.23.1920.1009@0.23.1920.1009" timestamp="1607429006310" />
-    <state x="835" y="344" key="FileChooserDialogImpl/0.23.1920.1010@0.23.1920.1010" timestamp="1607428442530" />
-    <state width="1515" height="249" key="GridCell.Tab.0.bottom" timestamp="1610474399980">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="937" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1608464777126" />
-    <state width="1515" height="249" key="GridCell.Tab.0.bottom/0.23.1536.891@0.23.1536.891" timestamp="1610466948046" />
-    <state width="1515" height="249" key="GridCell.Tab.0.bottom/0.23.1536.892@0.23.1536.892" timestamp="1610474399980" />
-    <state width="1515" height="296" key="GridCell.Tab.0.bottom/0.23.1536.893@0.23.1536.893" timestamp="1610474342090" />
-    <state width="1515" height="296" key="GridCell.Tab.0.bottom/0.23.1536.894@0.23.1536.894" timestamp="1610470620530" />
-    <state width="1379" height="235" key="GridCell.Tab.0.bottom/0.23.1536.897@0.23.1536.897" timestamp="1607504635556" />
-    <state width="1379" height="305" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1608648552898" />
-    <state width="1561" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070856" />
-    <state width="1379" height="235" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1607297317496" />
-    <state width="1379" height="235" key="GridCell.Tab.0.bottom/0.23.1920.1008@0.23.1920.1008" timestamp="1607296897824" />
-    <state width="1224" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1609590911400" />
-    <state width="1379" height="235" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1607511915409" />
-    <state width="1515" height="249" key="GridCell.Tab.0.center" timestamp="1610474399980">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="937" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1608464777124" />
-    <state width="1515" height="249" key="GridCell.Tab.0.center/0.23.1536.891@0.23.1536.891" timestamp="1610466948046" />
-    <state width="1515" height="249" key="GridCell.Tab.0.center/0.23.1536.892@0.23.1536.892" timestamp="1610474399980" />
-    <state width="1515" height="296" key="GridCell.Tab.0.center/0.23.1536.893@0.23.1536.893" timestamp="1610474342089" />
-    <state width="1515" height="296" key="GridCell.Tab.0.center/0.23.1536.894@0.23.1536.894" timestamp="1610470620529" />
-    <state width="1379" height="235" key="GridCell.Tab.0.center/0.23.1536.897@0.23.1536.897" timestamp="1607504635556" />
-    <state width="1379" height="305" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1608648552897" />
-    <state width="1561" height="272" key="GridCell.Tab.0.center/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070855" />
-    <state width="1379" height="235" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1607297317495" />
-    <state width="1379" height="235" key="GridCell.Tab.0.center/0.23.1920.1008@0.23.1920.1008" timestamp="1607296897824" />
-    <state width="1224" height="290" key="GridCell.Tab.0.center/0.23.1920.1009@0.23.1920.1009" timestamp="1609590911399" />
-    <state width="1379" height="235" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1607511915408" />
-    <state width="1515" height="249" key="GridCell.Tab.0.left" timestamp="1610474399979">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="937" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1608464777124" />
-    <state width="1515" height="249" key="GridCell.Tab.0.left/0.23.1536.891@0.23.1536.891" timestamp="1610466948045" />
-    <state width="1515" height="249" key="GridCell.Tab.0.left/0.23.1536.892@0.23.1536.892" timestamp="1610474399979" />
-    <state width="1515" height="296" key="GridCell.Tab.0.left/0.23.1536.893@0.23.1536.893" timestamp="1610474342089" />
-    <state width="1515" height="296" key="GridCell.Tab.0.left/0.23.1536.894@0.23.1536.894" timestamp="1610470620529" />
-    <state width="1379" height="235" key="GridCell.Tab.0.left/0.23.1536.897@0.23.1536.897" timestamp="1607504635555" />
-    <state width="1379" height="305" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1608648552897" />
-    <state width="1561" height="272" key="GridCell.Tab.0.left/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070854" />
-    <state width="1379" height="235" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1607297317495" />
-    <state width="1379" height="235" key="GridCell.Tab.0.left/0.23.1920.1008@0.23.1920.1008" timestamp="1607296897824" />
-    <state width="1224" height="290" key="GridCell.Tab.0.left/0.23.1920.1009@0.23.1920.1009" timestamp="1609590911398" />
-    <state width="1379" height="235" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1607511915408" />
-    <state width="1515" height="249" key="GridCell.Tab.0.right" timestamp="1610474399980">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="937" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608464777125" />
-    <state width="1515" height="249" key="GridCell.Tab.0.right/0.23.1536.891@0.23.1536.891" timestamp="1610466948046" />
-    <state width="1515" height="249" key="GridCell.Tab.0.right/0.23.1536.892@0.23.1536.892" timestamp="1610474399980" />
-    <state width="1515" height="296" key="GridCell.Tab.0.right/0.23.1536.893@0.23.1536.893" timestamp="1610474342090" />
-    <state width="1515" height="296" key="GridCell.Tab.0.right/0.23.1536.894@0.23.1536.894" timestamp="1610470620530" />
-    <state width="1379" height="235" key="GridCell.Tab.0.right/0.23.1536.897@0.23.1536.897" timestamp="1607504635556" />
-    <state width="1379" height="305" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1608648552897" />
-    <state width="1561" height="272" key="GridCell.Tab.0.right/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070855" />
-    <state width="1379" height="235" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1607297317495" />
-    <state width="1379" height="235" key="GridCell.Tab.0.right/0.23.1920.1008@0.23.1920.1008" timestamp="1607296897824" />
-    <state width="1224" height="290" key="GridCell.Tab.0.right/0.23.1920.1009@0.23.1920.1009" timestamp="1609590911399" />
-    <state width="1379" height="235" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1607511915409" />
-    <state width="1515" height="249" key="GridCell.Tab.1.bottom" timestamp="1610474399981">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="1515" height="249" key="GridCell.Tab.1.bottom/0.23.1536.891@0.23.1536.891" timestamp="1610466915030" />
-    <state width="1515" height="249" key="GridCell.Tab.1.bottom/0.23.1536.892@0.23.1536.892" timestamp="1610474399981" />
-    <state width="1515" height="249" key="GridCell.Tab.1.bottom/0.23.1536.893@0.23.1536.893" timestamp="1610468930449" />
-    <state width="1561" height="272" key="GridCell.Tab.1.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070857" />
-    <state width="1224" height="290" key="GridCell.Tab.1.bottom/0.23.1920.1009@0.23.1920.1009" timestamp="1609590912159" />
-    <state width="1379" height="290" key="GridCell.Tab.1.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1607428303718" />
-    <state width="1515" height="249" key="GridCell.Tab.1.center" timestamp="1610474399981">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="1515" height="249" key="GridCell.Tab.1.center/0.23.1536.891@0.23.1536.891" timestamp="1610466915029" />
-    <state width="1515" height="249" key="GridCell.Tab.1.center/0.23.1536.892@0.23.1536.892" timestamp="1610474399981" />
-    <state width="1515" height="249" key="GridCell.Tab.1.center/0.23.1536.893@0.23.1536.893" timestamp="1610468930448" />
-    <state width="1561" height="272" key="GridCell.Tab.1.center/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070856" />
-    <state width="1224" height="290" key="GridCell.Tab.1.center/0.23.1920.1009@0.23.1920.1009" timestamp="1609590912158" />
-    <state width="1379" height="290" key="GridCell.Tab.1.center/0.23.1920.1010@0.23.1920.1010" timestamp="1607428303718" />
-    <state width="1515" height="249" key="GridCell.Tab.1.left" timestamp="1610474399980">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="1515" height="249" key="GridCell.Tab.1.left/0.23.1536.891@0.23.1536.891" timestamp="1610466915029" />
-    <state width="1515" height="249" key="GridCell.Tab.1.left/0.23.1536.892@0.23.1536.892" timestamp="1610474399980" />
-    <state width="1515" height="249" key="GridCell.Tab.1.left/0.23.1536.893@0.23.1536.893" timestamp="1610468930448" />
-    <state width="1561" height="272" key="GridCell.Tab.1.left/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070856" />
-    <state width="1224" height="290" key="GridCell.Tab.1.left/0.23.1920.1009@0.23.1920.1009" timestamp="1609590912158" />
-    <state width="1379" height="290" key="GridCell.Tab.1.left/0.23.1920.1010@0.23.1920.1010" timestamp="1607428303718" />
-    <state width="1515" height="249" key="GridCell.Tab.1.right" timestamp="1610474399981">
-      <screen x="0" y="23" width="1536" height="892" />
-    </state>
-    <state width="1515" height="249" key="GridCell.Tab.1.right/0.23.1536.891@0.23.1536.891" timestamp="1610466915030" />
-    <state width="1515" height="249" key="GridCell.Tab.1.right/0.23.1536.892@0.23.1536.892" timestamp="1610474399981" />
-    <state width="1515" height="249" key="GridCell.Tab.1.right/0.23.1536.893@0.23.1536.893" timestamp="1610468930448" />
-    <state width="1561" height="272" key="GridCell.Tab.1.right/0.23.1920.1004@0.23.1920.1004" timestamp="1609945070856" />
-    <state width="1224" height="290" key="GridCell.Tab.1.right/0.23.1920.1009@0.23.1920.1009" timestamp="1609590912159" />
-    <state width="1379" height="290" key="GridCell.Tab.1.right/0.23.1920.1010@0.23.1920.1010" timestamp="1607428303718" />
-    <state x="549" y="220" key="SettingsEditor" timestamp="1610579231979">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state x="549" y="212" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608417766554" />
-    <state x="549" y="220" key="SettingsEditor/0.23.1920.1005@0.23.1920.1005" timestamp="1610579231979" />
-    <state x="549" y="220" key="SettingsEditor/0.23.1920.1006@0.23.1920.1006" timestamp="1609531901573" />
-    <state x="549" y="221" key="SettingsEditor/0.23.1920.1009@0.23.1920.1009" timestamp="1607429016659" />
-    <state x="549" y="221" key="SettingsEditor/0.23.1920.1010@0.23.1920.1010" timestamp="1607617087737" />
-    <state x="778" y="321" width="540" height="524" key="StructurePopup" timestamp="1607423676654">
-      <screen x="0" y="23" width="1920" height="1010" />
-    </state>
-    <state x="778" y="321" width="540" height="524" key="StructurePopup/0.23.1920.1010@0.23.1920.1010" timestamp="1607423676654" />
-    <state x="601" y="357" width="670" height="676" key="search.everywhere.popup" timestamp="1607617107282">
-      <screen x="0" y="23" width="1920" height="1010" />
-    </state>
-    <state x="601" y="357" width="670" height="676" key="search.everywhere.popup/0.23.1920.1010@0.23.1920.1010" timestamp="1607617107282" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -269,13 +315,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/play.py</url>
-          <line>100</line>
+          <line>107</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/play.py</url>
-          <line>92</line>
+          <line>99</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/play.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

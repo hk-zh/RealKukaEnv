@@ -54,17 +54,24 @@ class Player:
                  [0.919015, -0.15907337, 1.18060975], [7.11554270e-01, 1.51756884e-03, 1.34433537e+00],
                  [0.70905836, 0.13042637, 1.19320888]]
         acc_sum, obs = 0.0, []
+        file = open('data.txt', 'w')
         for i in range(5):
             env.reset()
+            obst = []
             env._set_goal(np.array(goals[i]))
             obs.append(goal_based_process(env._get_obs()))
             print(env.goal)
+
             for timestep in range(self.args.timesteps):
                 actions = self.my_step_batch(obs)
                 obs, infos = [], []
                 ob, _, _, info = env.step(actions[0])
+                obst.append(ob['achieved_goal'])
                 obs.append(goal_based_process(ob))
                 infos.append(info)
+            file.write(str(obst) + "\n")
+        file.close()
+
 
     def Test(self):
         env = self.env

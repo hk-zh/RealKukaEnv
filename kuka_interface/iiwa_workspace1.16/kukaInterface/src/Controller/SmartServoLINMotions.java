@@ -131,7 +131,7 @@ public class SmartServoLINMotions extends RoboticsAPIApplication{
 	
 	public void step() {
 		_theSmartServoLINRuntime.setDestination(destPosition);
-		ThreadUtil.milliSleep(30);
+		ThreadUtil.milliSleep(20);
 	}
 	
 	@Override

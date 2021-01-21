@@ -1,8 +1,0 @@
-package Controller;
-
-public class logger {
-	public void info (String s) {
-		System.out.println(s);
-	}
-
-}
