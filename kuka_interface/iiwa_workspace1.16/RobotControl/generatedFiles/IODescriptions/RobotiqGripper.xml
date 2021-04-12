@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Automatically generated IO group description. Please do NOT modify!
+-->
+<SunriseIOGroupDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0">
+  <IOGroup DisplayName="RobotiqGripper" IconName="RobotiqGripper" SignalTypes="InOut" TemplateName="RobotiqGripper">
+    <IOs>
+      <DigitalIOItem Name="ActionRequest" DataType="BYTE" IOType="Output" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="PositionRequest" DataType="BYTE" IOType="Output" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="GripperStatus" DataType="BYTE" IOType="Input" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="Force" DataType="BYTE" IOType="Output" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="FaultStatus" DataType="BYTE" IOType="Input" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="Current" DataType="BYTE" IOType="Input" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="Position" DataType="BYTE" IOType="Input" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="PositionRequestEcho" DataType="BYTE" IOType="Input" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+      <DigitalIOItem Name="Speed" DataType="BYTE" IOType="Output" UsedBitWidth="8" IsConnected="true">
+        <Description />
+      </DigitalIOItem>
+    </IOs>
+    <Description>Robotiq 2F-85 gripper EtherCat Control</Description>
+  </IOGroup>
+</SunriseIOGroupDescription>

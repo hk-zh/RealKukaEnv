@@ -2,15 +2,17 @@ from gym import utils, spaces
 from gym.utils import seeding
 import numpy as np
 from interface import KukaInterface
+MAX_EPISODE_STEPS = 100
 
-MAX_EPISODE_STEPS = 50
 
-
-class KukaEnv():
+class KukaEnv:
     def __init__(self, initial_qpos, n_actions, n_substeps):
         initialPos = []
         for name, value in initial_qpos.items():
             initialPos.append(value)
+        while len(initialPos) < 9:
+            initialPos.append(value)
+
         self.env = KukaInterface(initialPos)
         self._env_setup()
         self.initial_qpos = initial_qpos

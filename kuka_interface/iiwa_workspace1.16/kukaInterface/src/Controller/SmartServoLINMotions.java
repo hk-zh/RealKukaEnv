@@ -36,9 +36,9 @@ public class SmartServoLINMotions extends RoboticsAPIApplication{
     private ISmartServoLINRuntime _theSmartServoLINRuntime = null;
     
     private static final String TOOL_FRAME = "toolFrame";
-    private static final double[] TRANSLATION_OF_TOOL = { 0, 0, 100 };
+    private static final double[] TRANSLATION_OF_TOOL = { 0, 0, 150 };
     private static final double MASS = 0;
-    private static final double[] CENTER_OF_MASS_IN_MILLIMETER = { 0, 0, 100 };
+    private static final double[] CENTER_OF_MASS_IN_MILLIMETER = { 0, 0, 150 };
     private static final double[] MAX_TRANSLATION_VELOCITY = { 150, 150, 150 };
     private logger log = new logger();
     private static final double Dt = 0.05;
@@ -47,6 +47,9 @@ public class SmartServoLINMotions extends RoboticsAPIApplication{
     
     private Frame destPosition;
     private Frame initialPosition;
+    private double Z_lower_bound= 70.0;
+    private double X_upper_bound = 740;
+    private double X_lower_bound = 440;
     
 	public SmartServoLINMotions(RoboticsAPIContext context) {
 		super(context);
@@ -123,6 +126,15 @@ public class SmartServoLINMotions extends RoboticsAPIApplication{
 	public void setAction(double [] action) {
 		_theSmartServoLINRuntime.updateWithRealtimeSystem();
 		Frame currentPosition = _theSmartServoLINRuntime.getCurrentCartesianPosition(_lbr.getFlange());
+		if (currentPosition.getZ() + action[2] <= this.Z_lower_bound) {
+			action[2] = -currentPosition.getZ() + this.Z_lower_bound;
+		}
+		if (currentPosition.getX() + action[0] >= this.X_upper_bound) {
+			action[0] = this.X_upper_bound - currentPosition.getX();
+		}
+		if (currentPosition.getX() + action[0] <= this.X_lower_bound) {
+			action[0] = this.X_lower_bound - currentPosition.getX();
+		}
 		destPosition = new Frame(currentPosition);
 		destPosition.setX(-action[0]);
 		destPosition.setY(action[1]);
@@ -131,7 +143,6 @@ public class SmartServoLINMotions extends RoboticsAPIApplication{
 	
 	public void step() {
 		_theSmartServoLINRuntime.setDestination(destPosition);
-		ThreadUtil.milliSleep(20);
 	}
 	
 	@Override

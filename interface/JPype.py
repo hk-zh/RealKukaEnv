@@ -5,9 +5,6 @@ from jpype.types import *
 import numpy as np
 
 
-
-
-
 class KukaInterface:
     def __init__(self, initialPos):
         print(os.path.join(os.path.abspath('.'), 'kuka_interface/iiwa_workspace1.16/kuka.jar'))
@@ -29,7 +26,7 @@ class KukaInterface:
     def setOffset(self, offset):
         self.offset = np.array(offset)
 
-    def getCurrentJoint(self) -> np.ndarray:
+    def getCurrentJoints(self) -> np.ndarray:
         return np.array(self.controller.getCurrentJoints())
 
     def getCurrentFrame(self) -> np.ndarray:
@@ -41,6 +38,9 @@ class KukaInterface:
     def setAction(self, action):
         self.controller.setAction(JArray(JDouble)(action * self.unit))
 
+    def setGripperAction(self, action):
+        self.controller.setGripperAction(JDouble(action))
+
     def step(self):
         self.controller.step()
 
@@ -49,6 +49,17 @@ class KukaInterface:
 
     def resetInitialPosition(self):
         self.controller.resetInitialPosition()
+
+    def hasObject(self):
+        return self.controller.hasObject()
+
+    def getCurrentGripperPosition(self):
+        pos = self.controller.getCurrentGripperPosition()
+        return np.array([pos, pos])
+
+    def getCurrentGripperVelocity(self):
+        vel = self.controller.getCurrentGripperVelocity()
+        return np.array([vel, vel])
 
     @staticmethod
     def shutdown():

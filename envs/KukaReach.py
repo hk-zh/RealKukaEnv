@@ -20,6 +20,7 @@ class KukaReach(KukaEnv):
         self.reward_type = reward_type
         self.pos = np.zeros(3)
         self.sim_env_coord = np.array([0.8294, 0.0, 1.2437])
+        # initial needle Cartesian position according to joints position in simulation
 
         super(KukaReach, self).__init__(
             initial_qpos=initial_qpos, n_actions=4, n_substeps=20
@@ -86,3 +87,5 @@ class KukaReach(KukaEnv):
         self.env.dispose()
         self.env.shutdown()
 
+    def getCurrentJointsPosition(self):
+        return self.env.getCurrentJoints()

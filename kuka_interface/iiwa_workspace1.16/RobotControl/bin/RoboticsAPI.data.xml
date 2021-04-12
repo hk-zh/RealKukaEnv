@@ -38,4 +38,9 @@
             <loadData cogA="0.0" cogB="0.0" cogC="0.0" cogX="8.805069659206941" cogY="5.925607126714437" cogZ="33.864817334035294" inertiaX="0.0" inertiaY="0.0" inertiaZ="0.0" mass="0.8465700122337448"/>
         </toolTemplate>
     </objectTemplates>
+    <processDataContainer>
+        <processData dataType="java.lang.Integer" defaultValue="25" displayName="GripperStep" id="gripperStep" max="50.0" min="5.0" value="25"/>
+        <processData dataType="java.lang.Integer" defaultValue="128" displayName="GripperSpeed" id="gripperSpeed" max="255.0" min="5.0" value="128"/>
+        <processData dataType="java.lang.Integer" defaultValue="30" displayName="GripperForce" id="gripperForce" max="255.0" min="1.0" value="35"/>
+    </processDataContainer>
 </RoboticsAPIData>

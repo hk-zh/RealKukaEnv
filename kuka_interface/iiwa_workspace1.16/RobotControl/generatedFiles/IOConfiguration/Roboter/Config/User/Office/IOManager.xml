@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version Label="">
+    <Info Version="IOManager V0.1.0" />
+    <Schema Version="1" />
+  </Version>
+  <WarnMultipleUsageOfInputs printWarning="false" />
+  <BusList>
+    <Bus BusDriverName="ECatIODriver" BusInstanceName="SYS-X44">
+      <IOList>
+        <DigitalIO Name="RobotiqGripper.ActionRequest" Type="OUTPUT" Scope="USER_IO" StartBit="12576" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.Current" Type="INPUT" Scope="USER_IO" StartBit="472" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.FaultStatus" Type="INPUT" Scope="USER_IO" StartBit="448" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.Force" Type="OUTPUT" Scope="USER_IO" StartBit="12616" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.GripperStatus" Type="INPUT" Scope="USER_IO" StartBit="432" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.PositionRequest" Type="OUTPUT" Scope="USER_IO" StartBit="12600" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.PositionRequestEcho" Type="INPUT" Scope="USER_IO" StartBit="456" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.Speed" Type="OUTPUT" Scope="USER_IO" StartBit="12608" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+        <DigitalIO Name="RobotiqGripper.Position" Type="INPUT" Scope="USER_IO" StartBit="464" BitSize="8" Signed="false">
+          <Description />
+        </DigitalIO>
+      </IOList>
+    </Bus>
+  </BusList>
+</IOManager>

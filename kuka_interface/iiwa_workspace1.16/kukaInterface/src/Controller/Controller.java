@@ -1,5 +1,6 @@
 package Controller;
 
+import com.kuka.common.ThreadUtil;
 import com.kuka.roboticsAPI.RoboticsAPIContext;
 import com.kuka.roboticsAPI.applicationModel.RoboticsAPIApplication;
 import com.kuka.roboticsAPI.deviceModel.LBR;
@@ -12,7 +13,8 @@ import utility.SingleInstanceChecker;
 
 public class Controller {
     
-	private SmartServoLINMotions app = null;
+	private SmartServoLINMotions motion = null;
+	private GripperMotions gmotion = null;
 	public Controller(double [] startPosition) {
 		RoboticsAPIContext.useGracefulInitialization(true);
 
@@ -20,42 +22,69 @@ public class Controller {
 		new SingleInstanceChecker().start();
 
 		// initialization
-		app = new SmartServoLINMotions(RoboticsAPIContext.createFromResource(SmartServoLINMotions.class, "RoboticsAPI.config.xml"));
-		app.setStartPosition(startPosition);
-		app.initialize();
-		app.run();
+		motion = new SmartServoLINMotions(RoboticsAPIContext.createFromResource(SmartServoLINMotions.class, "RoboticsAPI.config.xml"));
+		gmotion = new GripperMotions(RoboticsAPIContext.createFromResource(GripperMotions.class, "RoboticsAPI.config.xml"));
+		motion.setStartPosition(startPosition);
+		motion.initialize();
+		motion.run();
+		gmotion.initialize();
+		gmotion.run();
 	}
 	
 	
 	public double [] getCurrentJoints() {
-		return app.getCurrentJointsPosition();
+		return motion.getCurrentJointsPosition();
 	}
 	
 	public double [] getCurrentFrame() {
-		return app.getCurrentPosition();
+		return motion.getCurrentPosition();
 	}
 	
 	
 	public double [] getCurrentFrameVelocity() {
-		return app.getCurrentVelocity();
+		return motion.getCurrentVelocity();
+	}
+
+	public void step() {
+		motion.step();
+		gmotion.step();
+		ThreadUtil.milliSleep(20);
+	}
+	public void resetInitialPosition() {
+		motion.resetInitialPosition();
 	}
 	
 	public void setAction(double [] action) {
-		app.setAction(action);
+		motion.setAction(action);
 	}
 
-
-	public void step() {
-		app.step();
-	}
-	public void resetInitialPosition() {
-		app.resetInitialPosition();
+	public void setGripperAction(double gripper_ctrl) {
+		gmotion.setAction(gripper_ctrl);
 	}
 	
+	public boolean hasObject() {
+		return gmotion.hasObject();
+	}
+	
+	public double getCurrentGripperPosition() {
+		return gmotion.getCurrentGripperPosition();
+	}
+	
+	public double getCurrentGripperVelocity() {
+		return gmotion.getCurrentGripperVelocity();
+	}
 	public void dispose() {
-		app.dispose();
+		motion.dispose();
 		System.exit(0);
 	}
+	
+    public void gripperClose() {
+    	gmotion.gripperClose();
+    }
+    
+    public void gripperOpen() {
+    	gmotion.gripperOpen();
+    }
 	public String path() {
 		return this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath();
 	}
@@ -66,11 +95,12 @@ public class Controller {
 		System.out.println();
 		
 	}
+	
     public static void main (String [] args) {
-    	Controller c = new Controller(new double [] {0.0, 0.712, 0.0, -1.26, 0.0, 1.17, 0.0});
+    	Controller c = new Controller(new double [] {0.326, 1.07, 0.0, -1.34, 0.0, 0.733, 0.336});
     	print(c.getCurrentFrame());
-    	c.resetInitialPosition();
-    	c.dispose();
+    	c.gripperClose();
+    	
     }
 
 

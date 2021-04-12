@@ -1,4 +1,121 @@
 import numpy as np
 from envs import KukaEnv
 from envs.utils import goal_distance
+from kinect.camera import Camera
 
+
+class KukaPush(KukaEnv):
+    def __init__(self, reward_type='sparse'):
+        initial_qpos = {
+            'kuka_joint_1': 0.326,
+            'kuka_joint_2': 0.942,
+            'kuka_joint_3': 0.0,
+            'kuka_joint_4': -1.74,
+            'kuka_joint_5': 0.0,
+            'kuka_joint_6': 0.461,
+            'kuka_joint_7': 0.336
+        }
+        self.has_object = True
+        self.target_in_the_air = False
+        self.distance_threshold = 0.06
+        self.reward_type = reward_type
+        self.pos = np.zeros(3)
+        self.sim_env_coord = np.array([0.674, 0.160, 0.973])
+        # initial needle Cartesian position according to joints position in simulation
+        self.gripperOffset = 0.07
+        self.target_range_x = 0.06
+        self.target_range_y = 0.06
+        self.target_center = np.array([[0.65, -0.25, 0], [0.7, -0.2, 0], [0.62, -0.3, 0], [0.75, -0.28, 0], [0.62, -0.3, 0]])
+        self.height_offset = 0.87
+        self.camera = Camera()
+        self.order = 2
+        # todo: change height offset
+
+        super(KukaPush, self).__init__(
+            initial_qpos=initial_qpos, n_actions=4, n_substeps=20
+        )
+
+    def compute_reward(self, achieved_goal: np.ndarray, desired_goal: np.ndarray):
+        d = goal_distance(achieved_goal, desired_goal)
+        if self.reward_type == 'sparse':
+            return -(d > self.distance_threshold).astype(np.float32)
+        else:
+            return -d
+
+    def reset(self):
+        self.env.resetInitialPosition()
+        self.goal = self._sample_goal().copy()
+        obs = self._get_obs()
+        return obs
+
+    def _set_action(self, action):
+        assert action.shape == (4,)
+        action = action.copy()
+        pos_ctrl = action[:3]
+        pos_ctrl *= 0.05
+        self.env.setAction(pos_ctrl)
+
+    def _get_obs(self):
+        grip_pos = self.env.getCurrentFrame()
+        grip_pos[2] = grip_pos[2] - self.gripperOffset
+        grip_velp = self.env.getCurrentFrameVelocity()
+        if self.has_object:
+            if self.camera.objectInAir():
+                object_pos = grip_pos
+                object_velp = grip_velp
+            else:
+                object_pos = self.camera.getObjectPosition()
+                object_velp = self.camera.getObjectVelocity()
+
+            object_pos[0] = object_pos[0]-0.01
+            object_rot = np.zeros(3)
+
+            object_velr = np.zeros(3)
+            object_rel_pos = object_pos - grip_pos
+            object_velp -= grip_velp
+
+        else:
+            object_pos = object_rot = object_velp = object_velr = object_rel_pos = np.zeros(0)
+        gripper_state = np.zeros(0)
+        gripper_vel = np.zeros(0)
+        achieved_goal = grip_pos.copy()
+        obs = np.concatenate([
+            grip_pos, object_pos.ravel(), object_rel_pos.ravel(), gripper_state, object_rot.ravel(),
+            object_velp.ravel(), object_velr.ravel(), grip_velp, gripper_vel,
+        ])
+        return {
+            'observation': obs.copy(),
+            'achieved_goal': achieved_goal.copy(),
+            'desired_goal': self.goal.copy(),
+        }
+
+    def _sample_goal(self):
+        goal = self.target_center[self.order].copy()
+        # goal[1] += self.np_random.uniform(-self.target_range_y, self.target_range_y)
+        # goal[0] += self.np_random.uniform(-self.target_range_x, self.target_range_x)
+        return goal.copy()
+
+    def _env_setup(self):
+        # self.env.stepJoints(np.array(joints))
+        offset = self.env.getCurrentFrame() - self.sim_env_coord
+        self.env.setOffset(offset)
+        self.camera.setOffset(offset)
+        self.initial_needle_xpos = self.env.getCurrentFrame().copy()
+        self.target_center[self.order][2] = self.height_offset
+
+    def _step_callback(self):
+        pass
+
+    def _set_goal(self, goal):
+        self.goal = goal.copy()
+
+    def _is_success(self, achieved_goal, desired_goal):
+        d = goal_distance(achieved_goal, desired_goal)
+        return (d < self.distance_threshold).astype(np.float32)
+
+    def close(self):
+        self.env.dispose()
+        self.env.shutdown()
+
+    def getCurrentJointsPosition(self):
+        return self.env.getCurrentJoints()
